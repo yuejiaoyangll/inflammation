@@ -1,10 +1,9 @@
 import numpy
 import matplotlib.pyplot
-print()
 
 data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
 
-fig = matplotlib.pyplot.figure(figsize=(10.0, 3.0))
+fig = matplotlib.pyplot.figure(figsize=(10.0, 4.0))
 
 axes1 = fig.add_subplot(1, 3, 1)
 axes2 = fig.add_subplot(1, 3, 2)
